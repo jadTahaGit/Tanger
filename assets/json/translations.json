@@ -1,47 +1,470 @@
 [
     {
         "id": 1,
-        "token": "home",
+        "token": "tangerMasterClass",
         "translations": {
-            "en": "Home",
-            "fr": "Maison",
-            "ar": "المنزل"
+            "en": "Tanger Masterclass",
+            "fr": "",
+            "ar": ""
         }
     },
     {
         "id": 2,
-        "token": "about",
+        "token": "tableOfContent",
         "translations": {
-            "en": "About",
-            "fr": "About fr",
-            "ar": "About ar"
+            "en": "Table of Content",
+            "fr": "",
+            "ar": ""
         }
     },
     {
         "id": 3,
-        "token": "test",
+        "token": "aboutUs",
         "translations": {
-            "en": "Test",
-            "fr": "Test fr",
-            "ar": "Test ar"
+            "en": "About Us",
+            "fr": "",
+            "ar": ""
         }
     },
     {
         "id": 4,
-        "token": "contactUs",
+        "token": "founderAndCEO",
         "translations": {
-            "en": "Contact Us",
-            "fr": "Contact Us fr",
-            "ar": "Contact Us ar"
+            "en": "Founder & CEO",
+            "fr": "",
+            "ar": ""
         }
     },
     {
         "id": 5,
-        "token": "login",
+        "token": "aimsAndGoals",
         "translations": {
-            "en": "Login",
-            "fr": "Login fr",
-            "ar": "Login ar"
+            "en": "Aims & Goals",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 6,
+        "token": "protocol",
+        "translations": {
+            "en": "Protocol",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 7,
+        "token": "certificationAndOutcome",
+        "translations": {
+            "en": "Certifications & Outcome",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 8,
+        "token": "countriesParticipation",
+        "translations": {
+            "en": "Countries Participation",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 9,
+        "token": "Packages",
+        "translations": {
+            "en": "Packages",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 10,
+        "token": "vipPackages",
+        "translations": {
+            "en": "VIP Packages",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 11,
+        "token": "diamondPackage",
+        "translations": {
+            "en": "Diamond Package",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 12,
+        "token": "goldPackage",
+        "translations": {
+            "en": "Gold Package",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 13,
+        "token": "silverPackage",
+        "translations": {
+            "en": "Silver Package",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 14,
+        "token": "online",
+        "translations": {
+            "en": "Online",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 15,
+        "token": "location",
+        "translations": {
+            "en": "Location",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 16,
+        "token": "registerNow",
+        "translations": {
+            "en": "Register Now",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 17,
+        "token": "asHairCareOnline",
+        "translations": {
+            "en": "AS HAIR CARE Online",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 18,
+        "token": "contactUs",
+        "translations": {
+            "en": "Contact Us",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 19,
+        "token": "aboutUsDescription",
+        "translations": {
+            "en": "<p>Our Research was based on using the extract of the orchid flower, this Amazonian flower, known for its tolerance to harsh weather conditions and high temperatures, and that its extract is an alternative to refreshing and maintaining hair, so it is used in preparations that are used to care for hair, as it removes hair from the accumulated chemical substances that prevent it from growing and revital ising the hair’s natural components Alpha keratin that bui lds upon the hair, causes it to become inactive and prevents it from growing. And it el iminates the fungi that infect the hair follicle</p><p>The most important thing it helps to revive and revital ise the stem cel ls and regenerate them without using injection exactly as the plasma principle by absorbing it by the cel ls. Our AS invention worked wel l on Women’s hair, in European and Arab countries, especial ly the Gulf and Saudi Arabia in particular, it revolutionised hair treatments and dealt with the problems caused by heat, moisture, and salty water on the hair, especial ly in these regions. The results were very tangible and not just theoretical .</p>",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 20,
+        "token": "ahmadSlieman",
+        "translations": {
+            "en": "AHMAD SLIEMAN",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 21,
+        "token": "founderAndCEODescription",
+        "translations": {
+            "en": "<p>Lebanese international hair expert Ahmad Sl ieman, whose experience did not stop at providing the best solutions for treating hair problems through his therapeutic and hair care innovations, but rather changed the concepts of hair treatments for many women that may harm the hair and which some people mistakenly bel ieve are beneficial . It did not stop at that, but AS HAIRCARE was considered a revolution in the world of hair care and treatment.</p><p>Hair Expert Ahmad Sl ieman founded AS hair care, he is one of two in The World that came up with this treatment . The origins of the invention are back to his father, after years of research, going back twenty years or more when the Brazi l ian Keratin Treatment was introduced to the market, it was discovered that it causes cancer after about six months because it contains formaldehydr.</p>",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 22,
+        "token": "aimsAndGoalsDescription",
+        "translations": {
+            "en": "The Masterclass is designed for artists who wish to take their knowledge one step further and want to ‘refine’ their ski l ls and update their techniques when it comes to treating hair-loss and advanced scalp treatments.",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 23,
+        "token": "protocolDescription",
+        "translations": {
+            "en": "Led by Global Hair Expert Ahmad Sl ieman, wi l l provide informative two days theory and practice on how to treat damaged hair. You wi l l learn about hair thinning and scalp problems in depth. The masterclass wi l l also educate you on the revolutionary PRP alternative solution, which you wi l l be able to preform on cl ients.",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 24,
+        "token": "certificationAndOutcomeDescription",
+        "translations": {
+            "en": "<p>The Masterclass will allow you to learn about:</p><ul><li>Hair-loss problems</li><li>How to care for damaged hair</li><li>How to effectively treat hair loss</li><li>Treatments for hair affected by heat and weather conditions</li><li>Tips and secrets of hair growth</li><li>All you need to know about hair and scalp</li><li>Treating, cleansing and eliminating bacteria from the scalp</li><li>How to use the <span class='text-gold'>PRP</span> effect</li><li>Achieving straight hair guaranteed for up to<span class='text-gold'>6 months</span></li><li>You will become a certified Hair Expert with the ability toprofessionally treat all hair problems</li></ul>",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 25,
+        "token": "coutriesParticipationDescription",
+        "translations": {
+            "en": "PARTICIPATION OF 14 COUNTRIES",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 26,
+        "token": "vipPackagesDescription",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 5,
+        "token": "",
+        "translations": {
+            "en": "",
+            "fr": "",
+            "ar": ""
         }
     }
 ]
