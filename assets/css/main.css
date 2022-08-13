@@ -9,3 +9,8 @@
 .fontFamily-Cookie {
   font-family: 'Cookie', cursive;
 }
+
+.max-width-80per {
+  max-width: 80%;
+  height: auto;
+}
