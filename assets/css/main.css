@@ -1,2 +1,11 @@
-@import "libs/bootstrap.min.css";
-@import "styles.css";
+@import 'libs/bootstrap.min.css';
+@import 'styles.css';
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Italiana&display=swap');
+
+.fontFamily-Italiana {
+  font-family: 'Italiana', serif;
+}
+
+.fontFamily-Cookie {
+  font-family: 'Cookie', cursive;
+}
