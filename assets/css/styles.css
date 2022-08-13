@@ -1,3 +1,8 @@
+* {
+    scroll-behavior: smooth !important;
+    scroll-margin: 4rem;
+}
+
 .fontFamily-Italiana {
     font-family: 'Italiana', serif;
 }
@@ -53,6 +58,19 @@
     
 .t-image {
     height: 600px;
+}
+
+.navbar-brand:hover {
+    color: var(--primary) !important;
+}
+
+.navbar .navbar-collapse a {
+    color: #111 !important;
+    transition: .3s;
+}
+
+.navbar .navbar-collapse a:hover {
+    color: var(--primary) !important;
 }
 
 @media only screen and (max-width: 1200px) {
