@@ -43,8 +43,42 @@
     box-shadow: #c8a55c 0px 6px 12px -2px, #9e7621 0px 3px 7px -3px;
 }
 
-@media only screen and (min-width: 1024px) {
+.protocol-description {
+    padding-inline: 150px;
+}
+
+.border-primary {
+    border: 1px solid #c8a55c !important;
+}
+    
+.t-image {
+    height: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .protocol-description {
+        padding-inline: 150px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .protocol-description {
+        padding-inline: 100px;
+    }
+
     .t-image {
-        height: 600px;
+        height: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .protocol-description {
+        padding-inline: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .protocolo-description {
+        padding-inline: 12px;
     }
 }
