@@ -16,19 +16,23 @@
 }
 
 .width-fullPage {
-  left: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  max-width: 99.5vw;
-  position: relative;
-  right: 50%;
-  width: 100vw;
+  width: 100%;
 }
 
 .text-gold {
   color: #c8a55c;
 }
 
+.btn-gold {
+  background-color: #c8a55c;
+  border-color: #c8a55c;
+}
+
+.btn-gold:hover {
+  background-color: #9e7621;
+  border-color: #9e7621;
+}
+
 section {
-  height: 100vh;
+  /* height: 100vh; */
 }
