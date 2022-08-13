@@ -8,8 +8,46 @@
     <title>Tanger</title>
   </head>
   <body class="bg-dark text-white">
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-      <section id="AboutUs" class="p-5 mb-5">
+      <section id="AboutUs" class="container p-5 mb-5">
         <div class="row align-items-center">
           <div class="col-12 col-md-6 order-1 order-md-0">
               <h1 class="text-gold fontFamily-Italiana">ABOUT US</h1>
@@ -43,7 +81,7 @@
 
       <section
         id="founderCEO"
-        class="p-5 mb-5"
+        class="container p-5 mb-5"
       >
         <div class="row align-items-center">
           <!-- bootstrap breakpoints
@@ -86,9 +124,9 @@
 
       <section
         id="Aims&Goals"
-        class="p-5 mb-5"
+        class="container p-5 mb-5"
       >
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-12 col-md-6">
             <h1 class="text-gold fontFamily-Italiana">
               MASTERCLASS AIMS AND GOALS
@@ -116,12 +154,14 @@
       >
         <div class="row align-items-center justify-content-center">
           <div class="col-12 col-md-6">
-            <img
+            <div>
+              <img
               src="./assets/imgs/protocol.png"
               class="width-fullPage"
               alt="Hair Care"
-            /> 
-          </div>
+              /> 
+            </div>
+      
           <div class="col-12 col-md-6">
             <h1 class="text-gold fontFamily-Italiana">MASTERCLASS PROTOCOL</h1>
             <p>
@@ -137,7 +177,7 @@
 
       <section
         id="certification"
-        class="p-5 border"
+        class="container p-5 border"
       >
         <div class="row align-items-center justify-content-center ">
           <div class="col-12">
@@ -171,14 +211,70 @@
 
       <section
         id="certification"
-        class="d-flex flex-column align-items-center justify-content-center p-5"
+        class="container d-flex flex-column align-items-center justify-content-center p-5"
       >
         <div class="row">
           <div class="col-12">
-            <img src="assets/imgs/T.png" alt="Tanger LOGO" />
+            <img src="assets/imgs/T.png"  alt="Tanger LOGO" />
             <h1 class="text-gold fontFamily-Italiana">
               TANGER MASTERCLASS PACKAGES
             </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-black" style="width: 18rem;">
+              <img src="assets/imgs/aims.png" class="card-img-top" alt="silver">
+              <div class="card-body">
+                <h5 class="card-title">SILVER PACKAGE</h5>
+                <p class="card-text">ONLINE</p>
+                <p class="card-text">Certificate</p>
+                <p class="card-text">$1000</p>
+                <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-black" style="width: 18rem;">
+              <img src="assets/imgs/aims.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GOLD PACKAGE</h5>
+                <p class="card-text">2-day masterclass</p>
+                <p class="card-text">Certificate</p>
+                <p class="card-text">$2000</p>
+                <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-black" style="width: 18rem;">
+              <img src="assets/imgs/aims.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">DIAMOND PACKAGE</h5>
+                <p class="card-text">3-nights complimentary hotel stay 2-day master class
+                  VIP seat at the Gala Dinner</p>
+                <p class="card-text">Certificate</p>
+                <p class="card-text">$3500</p>
+                <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-black" style="width: 18rem;">
+              <img src="assets/imgs/aims.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">VIP PACKAGE</h5>
+                <p class="card-text">3-nights complimentary hotel stay 2-day masterclass
+                  VIP seat at the Gala Dinner Interview
+                  Reportage Logo on Red Carpet</p>
+                <p class="card-text">Certificate</p>
+                <p class="card-text">$5000</p>
+                <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
