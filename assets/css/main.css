@@ -1,38 +1,3 @@
 @import 'libs/bootstrap.min.css';
+@import '../fonts/font.css';
 @import 'styles.css';
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Italiana&display=swap');
-
-.fontFamily-Italiana {
-  font-family: 'Italiana', serif;
-}
-
-.fontFamily-Cookie {
-  font-family: 'Cookie', cursive;
-}
-
-.max-width-80per {
-  max-width: 80%;
-  height: auto;
-}
-
-.width-fullPage {
-  width: 100%;
-}
-
-.text-gold {
-  color: #c8a55c;
-}
-
-.btn-gold {
-  background-color: #c8a55c;
-  border-color: #c8a55c;
-}
-
-.btn-gold:hover {
-  background-color: #9e7621;
-  border-color: #9e7621;
-}
-
-section {
-  /* height: 100vh; */
-}
