@@ -22,7 +22,7 @@ async function getTranslationsRemote() {
 
 function applyTranslations(ids) {
     ids.forEach(val => {
-        $(`#${val}`).text(translate(val));
+        $(`#${val}`).html(translate(val));
     });
 }
 
