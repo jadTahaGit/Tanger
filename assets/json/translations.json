@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "token": "home",
+        "translations": {
+            "en": "Home",
+            "fr": "Maison",
+            "ar": "المنزل"
+        }
+    },
+    {
+        "id": 2,
+        "token": "about",
+        "translations": {
+            "en": "About",
+            "fr": "About fr",
+            "ar": "About ar"
+        }
+    },
+    {
+        "id": 3,
+        "token": "test",
+        "translations": {
+            "en": "Test",
+            "fr": "Test fr",
+            "ar": "Test ar"
+        }
+    },
+    {
+        "id": 4,
+        "token": "contactUs",
+        "translations": {
+            "en": "Contact Us",
+            "fr": "Contact Us fr",
+            "ar": "Contact Us ar"
+        }
+    },
+    {
+        "id": 5,
+        "token": "login",
+        "translations": {
+            "en": "Login",
+            "fr": "Login fr",
+            "ar": "Login ar"
+        }
+    }
+]
