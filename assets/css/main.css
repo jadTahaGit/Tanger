@@ -1,2 +1,26 @@
-@import "libs/bootstrap.min.css";
-@import "styles.css";
+@import 'libs/bootstrap.min.css';
+@import 'styles.css';
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Italiana&display=swap');
+
+.fontFamily-Italiana {
+  font-family: 'Italiana', serif;
+}
+
+.fontFamily-Cookie {
+  font-family: 'Cookie', cursive;
+}
+
+.max-width-80per {
+  max-width: 80%;
+  height: auto;
+}
+
+.width-fullPage {
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 99.5vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
