@@ -20,6 +20,15 @@ async function getTranslationsRemote() {
         .catch(err => console.error(err));
 }
 
+function getTranslationsAnyway() {
+    fetch("./assets/json/translations.json")
+        .then(res => res.json())
+        .then(res => {
+            localStorage.translations = JSON.stringify(res);
+        })
+        .catch(err => console.error(err));
+}
+
 function applyTranslations(ids) {
     ids.forEach(val => {
         $(`#${val}`).html(translate(val));
@@ -27,6 +36,7 @@ function applyTranslations(ids) {
 }
 
 $(async () => {
+    getTranslationsAnyway();
     translations = await Promise.any([getTranslationsLocal(), getTranslationsRemote()]);
     if(translations)
         localStorage.translations = JSON.stringify(translations);

@@ -226,7 +226,7 @@
     },
     {
         "id": 26,
-        "token": "vipPackagesDescription",
+        "token": "vipPackageDescription",
         "translations": {
             "en": "",
             "fr": "",
@@ -234,8 +234,8 @@
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 27,
+        "token": "diamondPackageDescription",
         "translations": {
             "en": "",
             "fr": "",
@@ -243,8 +243,8 @@
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 28,
+        "token": "goldPackageDescription",
         "translations": {
             "en": "",
             "fr": "",
@@ -252,8 +252,8 @@
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 29,
+        "token": "locationDescription",
         "translations": {
             "en": "",
             "fr": "",
@@ -261,206 +261,53 @@
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 30,
+        "token": "secureYourPlace",
         "translations": {
-            "en": "",
+            "en": "SECURE YOUR PLACE NOW",
             "fr": "",
             "ar": ""
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 31,
+        "token": "whatsapp",
         "translations": {
-            "en": "",
+            "en": "WHATSAPP",
             "fr": "",
             "ar": ""
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 32,
+        "token": "findUs",
         "translations": {
-            "en": "",
+            "en": "FIND US ONLINE",
             "fr": "",
             "ar": ""
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 33,
+        "token": "findUsDescription",
         "translations": {
-            "en": "",
+            "en": "Stay up to date with our latest masterclasses",
             "fr": "",
             "ar": ""
         }
     },
     {
-        "id": 5,
-        "token": "",
+        "id": 34,
+        "token": "getInTouch",
         "translations": {
-            "en": "",
+            "en": "GET IN TOUCH",
             "fr": "",
             "ar": ""
         }
     },
     {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
-        "translations": {
-            "en": "",
-            "fr": "",
-            "ar": ""
-        }
-    },
-    {
-        "id": 5,
-        "token": "",
+        "id": 35,
+        "token": "getInTouchDescription",
         "translations": {
             "en": "",
             "fr": "",
