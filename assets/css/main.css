@@ -1,3 +1,4 @@
 @import 'libs/bootstrap.min.css';
 @import '../fonts/font.css';
+@import './variables.css';
 @import 'styles.css';

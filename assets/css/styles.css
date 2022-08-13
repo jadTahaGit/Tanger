@@ -16,21 +16,21 @@
 }
 
 .text-gold {
-    color: #c8a55c;
+    color: var(--primary);
 }
 
 .btn-gold {
-    background-color: #c8a55c;
-    border-color: #c8a55c;
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-gold:hover {
-    background-color: #9e7621;
-    border-color: #9e7621;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
 }
 
 .card {
-    border: 1px solid #c8a55c;
+    border: 1px solid var(--primary);
     transition: .4s;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .card:hover {
-    box-shadow: #c8a55c 0px 6px 12px -2px, #9e7621 0px 3px 7px -3px;
+    box-shadow: var(--primary) 0px 6px 12px -2px, var(--secondary) 0px 3px 7px -3px;
 }
 
 .protocol-description {
@@ -48,7 +48,7 @@
 }
 
 .border-primary {
-    border: 1px solid #c8a55c !important;
+    border: 1px solid var(--primary) !important;
 }
     
 .t-image {
