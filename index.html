@@ -280,7 +280,13 @@
                 <div>
                   <p class="card-text">Certificate</p>
                   <p class="card-text">$1000</p>
-                  <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
+                  <a
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#googleFormModal"
+                    class="btn btn-primary btn-gold"
+                    >Go somewhere</a
+                  >
                 </div>
               </div>
             </div>
@@ -398,6 +404,50 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="googleFormModal"
+      tabindex="-1"
+      aria-labelledby="googleFormModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="googleFormModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScT1a7sywe_hcL3uJTM5wRcAu4y0kBHzUQBZ1uqYdfSMrUVOA/viewform?embedded=true"
+              width="100%"
+              height="2377"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              >Loading…</iframe
+            >
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- JS Files -->
     <script src="./assets/js/libs/jquery-3.6.0.min.js"></script>
