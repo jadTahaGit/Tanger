@@ -30,9 +30,7 @@ function getTranslationsAnyway() {
 }
 
 function applyTranslations(ids) {
-    ids.forEach(val => {
-        $(`#${val}`).html(translate(val));
-    });
+    ids.forEach( val => $(`#${val}`).html(translate(val)) );
 }
 
 $(async () => {
