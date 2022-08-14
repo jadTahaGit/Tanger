@@ -1,119 +1,123 @@
 * {
-    scroll-behavior: smooth !important;
-    scroll-margin: 4rem;
+  scroll-behavior: smooth !important;
+  scroll-margin: 4rem;
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
-    border-radius: 16px;
+  background: #c1c1c1;
+  border-radius: 16px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #a1a1a1;
+  background: #a1a1a1;
 }
 
 .fontFamily-Italiana {
-    font-family: 'Italiana', serif;
+  font-family: 'Italiana', serif;
 }
 
 .fontFamily-Cookie {
-    font-family: 'Cookie', cursive;
+  font-family: 'Cookie', cursive;
 }
 
 .max-width-80per {
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  height: auto;
 }
 
 .width-fullPage {
-    width: 100%;
+  width: 100%;
 }
 
+.objectFit-contain {
+  object-fit: contain;
+}
 .text-gold {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .btn-gold {
-    background-color: var(--primary);
-    border-color: var(--primary);
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 
 .btn-gold:hover {
-    background-color: var(--secondary);
-    border-color: var(--secondary);
+  background-color: var(--secondary);
+  border-color: var(--secondary);
 }
 
 .card {
-    border: 1px solid var(--primary);
-    transition: .4s;
+  border: 1px solid var(--primary);
+  transition: 0.4s;
 }
 
 .card img {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .card:hover {
-    box-shadow: var(--primary) 0px 6px 12px -2px, var(--secondary) 0px 3px 7px -3px;
+  box-shadow: var(--primary) 0px 6px 12px -2px,
+    var(--secondary) 0px 3px 7px -3px;
 }
 
 .protocol-description {
-    padding-inline: 150px;
+  padding-inline: 150px;
 }
 
 .border-primary {
-    border: 1px solid var(--primary) !important;
+  border: 1px solid var(--primary) !important;
 }
-    
+
 .t-image {
-    height: 600px;
+  height: 600px;
 }
 
 .navbar-brand:hover {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 .navbar .navbar-collapse a {
-    color: #111 !important;
-    transition: .3s;
+  color: #111 !important;
+  transition: 0.3s;
 }
 
 .navbar .navbar-collapse a:hover {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 @media only screen and (max-width: 1200px) {
-    .protocol-description {
-        padding-inline: 150px;
-    }
+  .protocol-description {
+    padding-inline: 150px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
-    .protocol-description {
-        padding-inline: 100px;
-    }
+  .protocol-description {
+    padding-inline: 100px;
+  }
 
-    .t-image {
-        height: unset;
-    }
+  .t-image {
+    height: unset;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .protocol-description {
-        padding-inline: 50px;
-    }
+  .protocol-description {
+    padding-inline: 50px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-    .protocolo-description {
-        padding-inline: 12px;
-    }
+  .protocolo-description {
+    padding-inline: 12px;
+  }
 }
