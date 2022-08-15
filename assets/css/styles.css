@@ -108,6 +108,10 @@
   padding: 0;
 }
 
+#googleFormModal .modal-content {
+  height: 90vh;
+}
+
 @media only screen and (max-width: 1200px) {
   .protocol-description {
     padding-inline: 150px;
