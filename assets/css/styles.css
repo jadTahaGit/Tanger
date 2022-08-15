@@ -94,6 +94,20 @@
   color: var(--primary) !important;
 }
 
+.footer-link {
+  color: #fff;
+  transition: .4s;
+}
+
+.footer-link:hover {
+  color: var(--primary);
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
 @media only screen and (max-width: 1200px) {
   .protocol-description {
     padding-inline: 150px;
