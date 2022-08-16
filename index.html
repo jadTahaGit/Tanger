@@ -43,27 +43,27 @@
           class="collapse navbar-collapse fontFamily-Cookie fs-4"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a id="aboutUsNav" class="nav-link" href="#AboutUsSection">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a id="founderNav" class="nav-link" href="#founderCEOSection">Founder</a>
+              <a data-token="aboutUs" class="nav-link" href="#AboutUsSection"></a>
             </li>
             <li class="nav-item">
-              <a id="goalsNav" class="nav-link" href="#Aims&GoalsSection">Goals</a>
+              <a data-token="founder" class="nav-link" href="#founderCEOSection"></a>
             </li>
             <li class="nav-item">
-              <a id="protocolNav" class="nav-link" href="#protocolSection">Protocol</a>
+              <a data-token="goals" class="nav-link" href="#Aims&GoalsSection"></a>
             </li>
-            <li id="certificationNav" class="nav-item">
-              <a class="nav-link" href="#certificationSection">Certification</a>
+            <li class="nav-item">
+              <a data-token="protocol" class="nav-link" href="#protocolSection"></a>
             </li>
-            <li id="packagesNav" class="nav-item">
-              <a class="nav-link" href="#packagesSection">Packages</a>
+            <li class="nav-item">
+              <a data-token="certification" class="nav-link" href="#certificationSection"></a>
             </li>
-            <li id="contactNav" class="nav-item">
-              <a class="nav-link" href="#contactSection">Contact</a>
+            <li class="nav-item">
+              <a data-token="packages" class="nav-link" href="#packagesSection"></a>
+            </li>
+            <li class="nav-item">
+              <a data-token="contactUs" class="nav-link" href="#contactSection"></a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -72,13 +72,13 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                id="languageSelected"
               >
-                English
               </a>
               <ul class="dropdown-menu fs-5">
-                <li><a class="dropdown-item" href="#">English</a></li>
-                <li><a class="dropdown-item" href="#">French</a></li>
-                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                <li><button class="dropdown-item" onclick="changeLanguage('en')">English</button></li>
+                <li><button class="dropdown-item" onclick="changeLanguage('fr')">French</button></li>
+                <li><button class="dropdown-item" onclick="changeLanguage('ar')">Arabic</button></li>
               </ul>
             </li>
           </ul>
@@ -90,31 +90,8 @@
       <section id="AboutUsSection" class="p-2 p-md-5 mb-5">
         <div class="row align-items-center">
           <div class="col-12 col-md-6 order-1 order-md-0">
-            <h1 id="aboutUsTitle" class="text-gold fontFamily-Italiana">ABOUT US</h1>
-            <div id="aboutUsDescription">
-              <p>
-                Our Research was based on using the extract of the orchid flower,
-                this Amazonian flower, known for its tolerance to harsh weather
-                conditions and high temperatures, and that its extract is an
-                alternative to refreshing and maintaining hair, so it is used in
-                preparations that are used to care for hair, as it removes hair
-                from the accumulated chemical substances that prevent it from
-                growing and revitalising the hair’s natural components Alpha
-                keratin that builds upon the hair, causes it to become inactive
-                and prevents it from growing. And it eliminates the fungi that
-                infect the hair follicle.
-              </p>
-              <p>
-                The most important thing it helps to revive and revitalise the
-                stem cells and regenerate them without using injection exactly as
-                the plasma principle by absorbing it by the cells. Our AS
-                invention worked well on Women’s hair, in European and Arab
-                countries, especially the Gulf and Saudi Arabia in particular, it
-                revolutionised hair treatments and dealt with the problems caused
-                by heat, moisture, and salty water on the hair, especially in
-                these regions. The results were very tangible and not just
-                theoretical.
-              </p>
+            <h1 data-token="aboutUs" class="text-gold fontFamily-Italiana"></h1>
+            <div data-token="aboutUsDescription">
             </div>
           </div>
           <div class="col-12 col-md-6 order-0 order-md-1">
@@ -137,26 +114,9 @@
             />
           </div>
           <div class="col-12 col-md-6">
-            <h1 id="ahmadSlieman" class="text-gold fontFamily-Italiana">AHMAD SLIEMAN</h1>
-            <h1 id="founderAndCEO" class="text-gold fontFamily-Cookie">founder & ceo</h1>
-            <div id="founderAndCEODescription">
-              <p>
-                Lebanese international hair expert Ahmad Slieman, whose experience
-                did not stop at providing the best solutions for treating hair
-                problems through his therapeutic and hair care innovations, but
-                rather changed the concepts of hair treatments for many women that
-                may harm the hair and which some people mistakenly believe are
-                beneficial. It did not stop at that, but AS HAIRCARE was
-                considered a revolution in the world of hair care and treatment.
-              </p>
-              <p>
-                Hair Expert Ahmad Slieman founded AS hair care, he is one of two
-                in The World that came up with this treatment . The origins of the
-                invention are back to his father, after years of research, going
-                back twenty years or more when the Brazilian Keratin Treatment was
-                introduced to the market, it was discovered that it causes cancer
-                after about six months because it contains formaldehydr.
-              </p>
+            <h1 data-token="ahmadSlieman" class="text-gold fontFamily-Italiana"></h1>
+            <h1 data-token="founderAndCEO" class="text-gold fontFamily-Cookie"></h1>
+            <div data-token="founderAndCEODescription">
             </div>
           </div>
         </div>
@@ -165,14 +125,8 @@
       <section id="Aims&GoalsSection" class="p-2 p-md-5 mb-5">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h1 id="aimsAndGoalsTitle" class="text-gold fontFamily-Italiana">
-              MASTERCLASS AIMS AND GOALS
-            </h1>
-            <p id="aimsAndGoalsTitle">
-              The Masterclass is designed for artists who wish to take their
-              knowledge one step further and want to ‘refine’ their skills and
-              update their techniques when it comes to treating hair-loss and
-              advanced scalp treatments.
+            <h1 data-token="aimsAndGoals" class="text-gold fontFamily-Italiana"></h1>
+            <p data-token="aimsAndGoalsDescription">
             </p>
           </div>
           <div class="col-12 col-md-6">
@@ -194,14 +148,9 @@
         <div
           class="col-12 d-flex flex-column align-items-center justify-content-center text-center py-5 protocol-description"
         >
-          <h1 id="protocolTitle" class="text-gold fontFamily-Italiana">MASTERCLASS PROTOCOL</h1>
-          <p id="protocolDescription">
-            Led by Global Hair Expert Ahmad Slieman, will provide informative
-            two days theory and practice on how to treat damaged hair. You will
-            learn about hair thinning and scalp problems in depth. The
-            masterclass will also educate you on the revolutionary PRP
-            alternative solution, which you will be able to preform on clients.
-          </p>
+          <h1 data-token="protocolTitle" class="text-gold fontFamily-Italiana"></h1>
+          <div data-token="protocolDescription">
+          </div>
         </div>
       </div>
     </section>
@@ -210,38 +159,8 @@
       <section id="certificationSection" class="m-2 m-md-5 border-primary">
         <div class="row align-items-center justify-content-center p-4">
           <div class="col-12">
-            <h1 id="certificationAndOutcomeTitle" class="text-gold fontFamily-Italiana">
-              CERTIFICATION & OUTCOME
-            </h1>
-            <div id="certificationAndOutcomeDescription">
-              <p>The Masterclass will allow you to learn about:</p>
-              <ul class="ps-3">
-                <li>Hair-loss problems</li>
-                <li>How to care for damaged hair</li>
-                <li>How to effectively treat hair loss</li>
-                <li>
-                  Treatments for hair affected by heat and weather conditions
-                </li>
-                <li>Tips and secrets of hair growth</li>
-                <li>All you need to know about hair and scalp</li>
-                <li>
-                  Treating, cleansing and eliminating bacteria from the scalp
-                </li>
-                <li>How to use the <span class="text-gold">PRP</span> effect</li>
-                <li>
-                  Achieving straight hair guaranteed for up to
-                  <span class="text-gold">6 months</span>
-                </li>
-                <li>
-                  You will become a certified Hair Expert with the ability to
-                  professionally treat all hair problems
-                </li>
-              </ul>
-              <p>
-                A <span class="text-gold">CERTIFICATE</span> WILL BE PROVIDED UPON
-                COMPLETION
-              </p>
-            </div>
+            <h1 data-token="certificationAndOutcome" class="text-gold fontFamily-Italiana"></h1>
+            <div data-token="certificationAndOutcomeDescription"></div>
           </div>
         </div>
       </section>
@@ -269,20 +188,7 @@
                 class="card-img-top"
                 alt="silver"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">SILVER PACKAGE</h5>
-                <p class="card-text">ONLINE</p>
-                <div>
-                  <p class="card-text">Certificate</p>
-                  <p class="card-text">$1000</p>
-                  <a
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#googleFormModal"
-                    class="btn btn-primary btn-gold"
-                    >Go somewhere</a
-                  >
-                </div>
+              <div data-token="silverPackage" class="card-body d-flex flex-column justify-content-between">
               </div>
             </div>
           </div>
@@ -290,14 +196,7 @@
           <div class="col-12 col-md-6 col-lg-3 mb-2">
             <div class="card text-black h-100">
               <img src="assets/imgs/aims.png" class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">GOLD PACKAGE</h5>
-                <p class="card-text">2-day masterclass</p>
-                <div>
-                  <p class="card-text">Certificate</p>
-                  <p class="card-text">$2000</p>
-                  <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
-                </div>
+              <div data-token="goldPackage" class="card-body d-flex flex-column justify-content-between">
               </div>
             </div>
           </div>
@@ -305,17 +204,7 @@
           <div class="col-12 col-md-6 col-lg-3 mb-2">
             <div class="card text-black h-100">
               <img src="assets/imgs/aims.png" class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">DIAMOND PACKAGE</h5>
-                <p class="card-text">
-                  3-nights complimentary hotel stay 2-day master class VIP seat
-                  at the Gala Dinner
-                </p>
-                <div>
-                  <p class="card-text">Certificate</p>
-                  <p class="card-text">$3500</p>
-                  <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
-                </div>
+              <div data-token="diamondPackage" class="card-body d-flex flex-column justify-content-between">
               </div>
             </div>
           </div>
@@ -323,17 +212,7 @@
           <div class="col-12 col-md-6 col-lg-3 mb-2">
             <div class="card text-black h-100">
               <img src="assets/imgs/aims.png" class="card-img-top" alt="..." />
-              <div class="card-body d-flex flex-column justify-content-between">
-                <h5 class="card-title">VIP PACKAGE</h5>
-                <p class="card-text">
-                  3-nights complimentary hotel stay 2-day masterclass VIP seat
-                  at the Gala Dinner Interview Reportage Logo on Red Carpet
-                </p>
-                <div>
-                  <p class="card-text">Certificate</p>
-                  <p class="card-text">$5000</p>
-                  <a href="#" class="btn btn-primary btn-gold">Go somewhere</a>
-                </div>
+              <div data-token="VIPPackage" class="card-body d-flex flex-column justify-content-between">
               </div>
             </div>
           </div>
@@ -346,48 +225,7 @@
         <div class="col-12 col-md-8 p-0 mb-4 mb-md-0">
           <img src="./assets/imgs/getInTouch.png" alt="Get In Toach" class="w-100" />
         </div>
-        <div id="contactSectionDescription" class="col-12 col-md-4 px-4">
-          <div class="d-flex flex-column mb-4">
-            <div class="text-gold mb-1">COMPANY ADDRESS</div>
-            <div>811 S. Central Expy, Suit 302 Richardson, TX USA</div>
-          </div>
-          <div class="d-flex flex-column mb-4">
-            <div class="text-gold mb-1">PHONE NUMBER</div>
-            <a href="tel:+12147138015" class="text-decoration-none footer-link">+12147138015</a>
-          </div>
-          <div class="d-flex flex-column mb-4">
-            <div class="text-gold mb-1">EMAIL ADDRESS</div>
-            <a
-              href="mailto:contact@ashaircare.com"
-              class="footer-link text-decoration-none"
-              >contact@ashaircare.com</a
-            >
-          </div>
-          <div class="d-flex flex-column mb-4">
-            <div class="text-gold mb-1">WEBSITE</div>
-            <a
-              href="ashaircare.com"
-              target="_blank"
-              class="footer-link text-decoration-none"
-              >ashaircare.com</a
-            >
-          </div>
-          <div class="d-flex flex-column mb-4">
-            <div class="text-gold mb-1">OUR STORES</div>
-            <ul class="footer-list">
-              <li>BELGIUM</li>
-              <li>CANADA</li>
-              <li>FRANCE</li>
-              <li>GERMANY</li>
-              <li>LEBANON</li>
-              <li>MOROCCO</li>
-              <li>NETHERLANDS</li>
-              <li>SAUDI ARABIA</li>
-              <li>UAE</li>
-              <li>USA</li>
-              <li>UK</li>
-            </ul>
-          </div>
+        <div data-token="contactSectionDescription" class="col-12 col-md-4 px-4">
         </div>
       </div>
     </section>
@@ -438,5 +276,8 @@
     <!-- JS Files -->
     <script src="./assets/js/libs/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/libs/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/libs/mitt.umd.js"></script>
+    <script src="./assets/js/getTranslations.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

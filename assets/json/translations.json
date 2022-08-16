@@ -39,7 +39,7 @@
         "id": 5,
         "token": "aimsAndGoals",
         "translations": {
-            "en": "Aims & Goals",
+            "en": "Masterclass Aims & Goals",
             "fr": "",
             "ar": "الأهداف"
         }
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "token": "Packages",
+        "token": "packages",
         "translations": {
             "en": "Packages",
             "fr": "",
@@ -82,38 +82,38 @@
     },
     {
         "id": 10,
-        "token": "vipPackages",
+        "token": "VIPPackage",
         "translations": {
-            "en": "VIP Packages",
+            "en": "<h5 class='card-title'>VIP PACKAGE</h5><p class='card-text'>3-nights complimentary hotel stay 2-day masterclass VIP seat at the Gala Dinner Interview Reportage Logo on Red Carpet</p><div><p class='card-text'>Certificate</p><p class='card-text'>$5000</p><a href='#' class='btn btn-primary btn-gold'>Register</a></div>",
             "fr": "",
-            "ar": "الراعي الVIP"
+            "ar": "<h5 class='card-title'>الراعي VIP</h5><p class='card-text'>إقامة مجانية لثلاث ليالي - دورة تدريبة (يومين) - مقعد VIP في حفل عشاء فاخر - مقابلة - تقرير - علامتك المسجلة على السجادة الحمراء</p><div><p class='card-text'>شهادة خبرة</p><p class='card-text'>$5000</p><a href='#' class='btn btn-primary btn-gold'>تسجيل</a></div>"
         }
     },
     {
         "id": 11,
         "token": "diamondPackage",
         "translations": {
-            "en": "Diamond Package",
+            "en": "<h5 class='card-title'>DIAMOND PACKAGE</h5><p class='card-text'>3-nights complimentary hotel stay 2-day master class VIP seat at the Gala Dinner</p><div><p class='card-text'>Certificate</p><p class='card-text'>$3500</p><a href='#' class='btn btn-primary btn-gold'>Register</a></div>",
             "fr": "",
-            "ar": "الراعي الماسي"
+            "ar": "<h5 class='card-title'>الراعي الماسي</h5><p class='card-text'>اقامة مجانية لثلاث ليالي - دورة تدريبية (يومين) - مقعد VIP في حفل عشاء فاخر</p><div><p class='card-text'>شهادة خبرة</p><p class='card-text'>$3500</p><a href='#' class='btn btn-primary btn-gold'>تسجيل</a></div>"
         }
     },
     {
         "id": 12,
         "token": "goldPackage",
         "translations": {
-            "en": "Gold Package",
+            "en": "<h5 class='card-title'>GOLD PACKAGE</h5><p class='card-text'>2-day masterclass</p><div><p class='card-text'>Certificate</p><p class='card-text'>$2000</p><a href='#' class='btn btn-primary btn-gold'>Register</a></div>",
             "fr": "",
-            "ar": "الراعي الذهبي"
+            "ar": "<h5 class='card-title'>الراعي الذهبي</h5><p class='card-text'>تدريب لمدة يومين</p><div><p class='card-text'>شهادة خبرة</p><p class='card-text'>$2000</p><a href='#' class='btn btn-primary btn-gold'>تسجيل</a></div>"
         }
     },
     {
         "id": 13,
         "token": "silverPackage",
         "translations": {
-            "en": "Silver Package",
+            "en": "<h5 class='card-title'>SILVER PACKAGE</h5><p class='card-text'>ONLINE</p><div><p class='card-text'>Certificate</p><p class='card-text'>$1000</p><a href='#' data-bs-toggle='modal' data-bs-target='#googleFormModal' class='btn btn-primary btn-gold'>Register</a></div>",
             "fr": "",
-            "ar": "الراعي الذهبي"
+            "ar": "<h5 class='card-title'>الراعي الفضي</h5><p class='card-text'>دورة تدريبية عن بعد</p><div><p class='card-text'>شهادة خبرة</p><p class='card-text'>$1000</p><a href='#' data-bs-toggle='modal' data-bs-target='#googleFormModal' class='btn btn-primary btn-gold'>تسجيل</a></div>"
         }
     },
     {
@@ -201,7 +201,7 @@
         "id": 23,
         "token": "protocolDescription",
         "translations": {
-            "en": "Led by Global Hair Expert Ahmad Sl ieman, wi l l provide informative two days theory and practice on how to treat damaged hair. You wi l l learn about hair thinning and scalp problems in depth. The masterclass wi l l also educate you on the revolutionary PRP alternative solution, which you wi l l be able to preform on cl ients.",
+            "en": "<p>Led by Global Hair Expert Ahmad Sl ieman, wi l l provide informative two days theory and practice on how to treat damaged hair. You wi l l learn about hair thinning and scalp problems in depth. The masterclass wi l l also educate you on the revolutionary PRP alternative solution, which you wi l l be able to preform on cl ients.</p>",
             "fr": "",
             "ar": "<p>سيقدم خبير الشعر العالمي أحمد سليمان معلومات نظرية اىل جانب تدريب عملي لمدة يومين حول كيفية عالج الشعر التالف و المتضرر باالضافة اىل عالج الفطريات التي تصيب بصيالت الشعر.</p><p>سوف تتعرف من خالل هذه الدورة التعليمية عىل مشاكل تلف الشعر وفروة الرأس عن كثب اىل جانب الحل  ًرا عىل تطبيقه كعالج فعال لمشاكل شعر عمالئك بطريقة البديل لجلسات الخاليا الجذعية ، والذي ستكون قاد .  ًااحترافية وأساليب تدريبية معتمدة عالمي</p>"
         }
@@ -210,9 +210,9 @@
         "id": 24,
         "token": "certificationAndOutcomeDescription",
         "translations": {
-            "en": "<p>The Masterclass will allow you to learn about:</p><ul><li>Hair-loss problems</li><li>How to care for damaged hair</li><li>How to effectively treat hair loss</li><li>Treatments for hair affected by heat and weather conditions</li><li>Tips and secrets of hair growth</li><li>All you need to know about hair and scalp</li><li>Treating, cleansing and eliminating bacteria from the scalp</li><li>How to use the <span class='text-gold'>PRP</span> effect</li><li>Achieving straight hair guaranteed for up to<span class='text-gold'>6 months</span></li><li>You will become a certified Hair Expert with the ability toprofessionally treat all hair problems</li></ul>",
+            "en": "<p>The Masterclass will allow you to learn about:</p><ul><li>Hair-loss problems</li><li>How to care for damaged hair</li><li>How to effectively treat hair loss</li><li>Treatments for hair affected by heat and weather conditions</li><li>Tips and secrets of hair growth</li><li>All you need to know about hair and scalp</li><li>Treating, cleansing and eliminating bacteria from the scalp</li><li>How to use the <span class='text-gold'>PRP</span> effect</li><li>Achieving straight hair guaranteed for up to<span class='text-gold'>6 months</span></li><li>You will become a certified Hair Expert with the ability toprofessionally treat all hair problems</li></ul><p>A <span class='text-gold'>CERTIFICATE</span> WILL BE PROVIDED UPON COMPLETION</p>",
             "fr": "",
-            "ar": ""
+            "ar": "<p>تسمح لك الدورة التدريبية بتعلم التالي:</p><ul><li>مشاكل تساقط الشعر</li><li>طرق العناية بالشعر التالف</li><li>علاج تساقط الشعر بشكل فعال</li><li>علاجات الشعر المتضرر بسبب الحرارة والتغيرات المناخية</li><li>نصائح وأسرار نمو الشعر</li><li>كل ما تريد معرفته عن الشعر وفرة الرأس</li><li>علاج وتنظيف وإزالة البكتيريا من فروة الرأس</li><li>تأثير ال <span class='text-gold'>PRP</span></li><li>كيفية الحصول على شعر أملس يدوم لمدة تصل إلى<span class='text-gold'> 6 أشهر</span></li><li>ستصبح خبير شعر معتمد قادر على معالجة جميع مشاكل الشعر باحترافية</li></ul><p>التحصل على <span class='text-gold'>شهادة خبرة</span> بعد إنتهاء التدريب</p>"
         }
     },
     {
@@ -310,6 +310,51 @@
         "token": "getInTouchDescription",
         "translations": {
             "en": "",
+            "fr": "",
+            "ar": ""
+        }
+    },
+    {
+        "id": 36,
+        "token": "founder",
+        "translations": {
+            "en": "Founder",
+            "fr": "",
+            "ar": "المؤسس"
+        }
+    },
+    {
+        "id": 37,
+        "token": "goals",
+        "translations": {
+            "en": "Goals",
+            "fr": "",
+            "ar": "الأهداف"
+        }
+    },
+    {
+        "id": 37,
+        "token": "certification",
+        "translations": {
+            "en": "Certification",
+            "fr": "",
+            "ar": "الشهادة"
+        }
+    },
+    {
+        "id": 38,
+        "token": "protocolTitle",
+        "translations": {
+            "en": "Masterclass Protocol",
+            "fr": "",
+            "ar": "بروتوكول ماستركلاس"
+        }
+    },
+    {
+        "id": 39,
+        "token": "contactSectionDescription",
+        "translations": {
+            "en": "<div class='d-flex flex-column mb-4'> <div class='text-gold mb-1'>COMPANY ADDRESS</div> <div>811 S. Central Expy, Suit 302 Richardson, TX USA</div> </div> <div class='d-flex flex-column mb-4'> <div class='text-gold mb-1'>PHONE NUMBER</div> <a href='tel:+12147138015' class='text-decoration-none footer-link'>+12147138015</a> </div> <div class='d-flex flex-column mb-4'> <div class='text-gold mb-1'>EMAIL ADDRESS</div> <a href='mailto:contact@ashaircare.com' class='footer-link text-decoration-none' >contact@ashaircare.com</a > </div> <div class='d-flex flex-column mb-4'> <div class='text-gold mb-1'>WEBSITE</div> <a href='https://ashaircare.com' target='_blank' class='footer-link text-decoration-none' >ashaircare.com</a > </div> <div class='d-flex flex-column mb-4'> <div class='text-gold mb-1'>OUR STORES</div> <ul class='footer-list'> <li>BELGIUM</li> <li>CANADA</li> <li>FRANCE</li> <li>GERMANY</li> <li>LEBANON</li> <li>MOROCCO</li> <li>NETHERLANDS</li> <li>SAUDI ARABIA</li> <li>UAE</li> <li>USA</li> <li>UK</li> </ul> </div>",
             "fr": "",
             "ar": ""
         }

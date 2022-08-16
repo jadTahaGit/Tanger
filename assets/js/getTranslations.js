@@ -2,6 +2,18 @@ const lang = localStorage.getItem("language") || "en";
 const emitter = mitt();
 var translations = [];
 
+if(lang === "ar") {
+    document.dir = "rtl";
+    document.lang = "ar";
+    document.getElementById("languageSelected").innerText = "Arabic";
+} else {
+    if(lang === "en") {
+        document.getElementById("languageSelected").innerText = "English";
+    } else {
+        document.getElementById("languageSelected").innerText = "French";
+    }
+}
+
 const translate = token => {
     return translations.find((val) => val.token === token).translations[lang] === ""
         ? translations.find((val) => val.token === token).translations["en"]
@@ -29,8 +41,13 @@ function getTranslationsAnyway() {
         .catch(err => console.error(err));
 }
 
-function applyTranslations(ids) {
-    ids.forEach( val => $(`#${val}`).html(translate(val)) );
+function applyTranslations(tokens) {
+    tokens.forEach( token => $(`[data-token='${token}']`).html(translate(token)) );
+}
+
+function changeLanguage(lang) {
+    localStorage.language = lang;
+    location.reload();
 }
 
 $(async () => {
